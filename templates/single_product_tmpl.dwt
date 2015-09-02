@@ -46,6 +46,7 @@
         <li><a href="service.php">Service</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li class="last"><a href="contactus.html">Contact</a></li>
+        <li><a href="payment.html" class="payment_btn">Payment</a></li>
       </ul>
     </nav>
     <div class="clear"></div>
@@ -59,7 +60,7 @@
         <li>&#187;</li>
         <li><a href="index.html">Homepage</a></li>
         <li>&#187;</li>
-        <li class="current"><a href="full_width.html">About us</a></li>
+        <li class="current"><a href="full_width.html">....</a></li>
       </ul>
     </div>
     <div class="box">
