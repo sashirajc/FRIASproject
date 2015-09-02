@@ -43,10 +43,9 @@
         </li>
         <li><a href="cafe.html">Café</a></li>
         <li><a href="events.html">Events</a></li>
-        <li><a href="service.html">Service</a></li>
+        <li><a href="service.php">Service</a></li>
         <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contactus.html">Contact</a></li>
-        <li><a href="payment.html" class="payment_btn">Payment</a></li>
+        <li class="last"><a href="contactus.html">Contact</a></li>
       </ul>
     </nav>
     <div class="clear"></div>
@@ -63,7 +62,13 @@
         <li class="current"><a href="full_width.html">About us</a></li>
       </ul>
     </div>
-    <div class="box"></div>
+    <div class="box">
+    	<div class="portfolio">
+        
+        	<div class="clear"></div>
+        </div>
+    
+    </div>
   </div>
 <!-- TemplateEndEditable -->
   <div class="main-container">
