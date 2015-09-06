@@ -1017,13 +1017,13 @@ table {
     table-layout: auto;
     vertical-align: top;
     margin-bottom: 15px;
-    border: 1px solid #CCC
+    //border: 1px solid #CCC
 }
 
 table thead th {
     color: #FFF;
     background-color: #666;
-    border: 1px solid #CCC;
+    //border: 1px solid #CCC;
     border-collapse: collapse;
     text-align: center;
     table-layout: auto;
@@ -1034,8 +1034,10 @@ table tbody td {
 	text-align: center;
 	vertical-align: middle;
 	border-collapse: collapse;
-	border-left: 1px solid #CCC;
-	border-right: 1px solid #CCC
+	//border-left: 1px solid #CCC;
+	//border-right: 1px solid #CCC;	
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
 }
 
 table thead th, table tbody td {
