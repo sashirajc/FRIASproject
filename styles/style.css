@@ -59,26 +59,26 @@ body {
 
 
 .justify {
-    text-align: justify
+    text-align: justify;
 }
 
 .right {
-    text-align: right
+    text-align: right;
 }
 
 .nostart {
     list-style-type: none;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .clear {
-    clear: both
+    clear: both;
 }
 
 br.clear {
     clear: both;
-    margin-top: -15px
+    margin-top: -15px;
 }
 
 a {
@@ -715,7 +715,10 @@ a.read_more:hover {
     width: 960px;
     margin: 0 auto
 }
-
+.faq{
+	font-style: italic;
+	font-weight: bold;
+}
 #breadcrumb ul, #comments .commentlist ul, .sidebar #featured ul, .sidebar #featured h2, .sidebar #featured p {
     list-style: none;
     margin: 0;
