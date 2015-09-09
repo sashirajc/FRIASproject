@@ -19,3 +19,14 @@ $(document).ready(function () {
 jQuery(function () {
     jQuery('ul.nav').superfish();
 });
+
+function checkout() {
+    alert("Please do not close this window before your payment finished.");
+}
+
+function address() {
+	if(document.getElementById("myCheck").checked == true)
+    	document.getElementById("address").style.fontWeight = "bold";
+	else
+		document.getElementById("address").style.fontWeight = "normal";
+}
