@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.right{
+	float: right;	
+	}
 .cols {
 	width:300px
 }
@@ -16,6 +19,7 @@ h2 {
 	padding:16px 0 12px 0;
 	letter-spacing:-2px
 }
+
 
 .letter_spacing {
 	letter-spacing:-3px
@@ -33,11 +37,22 @@ h2 {
 	overflow:hidden;
 	width:965px;
 	margin-left:-5px;
-	padding-left:5px
+	padding-left:5px;
 }
 .wrapper {
 	width:100%;
-	overflow:hidden
+	overflow:hidden;
+}
+.box-menu {
+	background-color: #FFF;
+	border: 1px solid #666;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #ccc;
+	padding-left: 12px;
+	margin-top: 5px;
+	width: 66%;
+	float:right;
+	padding-bottom: 10px;
 }
 
 
