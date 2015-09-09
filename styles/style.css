@@ -1373,3 +1373,12 @@ ul.nav li li:hover ul, ul.nav li li.sfHover ul, ul.nav li li li:hover ul, ul.nav
     letter-spacing: 2px;
     text-shadow: 0 0 5px #000
 }
+.left{
+	height: 220px;
+	width: 480px;
+	float: left;
+	padding-top: 60px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	}
