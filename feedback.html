@@ -1,12 +1,13 @@
-<!-- InstanceBegin template="/Templates/single_product_tmpl.dwt" codeOutsideHTMLIsLocked="false" --><!DOCTYPE html>
+<!-- InstanceBegin template="/Templates/feedback_pg_tmpl.dwt" codeOutsideHTMLIsLocked="false" --><!DOCTYPE html>
 <head>
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Frias Kid Wear | for Girls</title>
+<title>Frias Kid Wear | Feedback Form</title>
 <!-- InstanceEndEditable -->
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="styles/style.css" type="text/css"/>
 <link rel="stylesheet" href="styles/prettyphoto.css" type="text/css"/>
 <link rel="stylesheet" href="styles/totop.css" type="text/css"/>
+<link rel="stylesheet" href="styles/feedback_page.css" type="text/css"/>
 
 <!--[if IE]>
 <style>#header h1 a:hover {
@@ -33,11 +34,11 @@
   <div id="nav-container">
     <nav>
       <ul class="nav">
-        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
         <li><a href="aboutus.html">About us</a></li>
         <li><a href="#">Products</a>
           <ul>
-            <li  class="active"><a href="products_girls.html">Girls</a>
+            <li><a href="products_girls.html">Girls</a>
             <li><a href="products_boys.html">Boys</a></li>
           </ul>
         </li>
@@ -45,7 +46,7 @@
         <li><a href="events.html">Events</a></li>
         <li><a href="service.html">Service</a></li>
         <li><a href="faq.html">FAQ</a></li>
-        <li class="last"><a href="contactus.html">Contact</a></li>
+        <li><a href="contactus.html">Contact</a></li>
         <li><a href="payment.html" class="payment_btn">Payment</a></li>
       </ul>
     </nav>
@@ -58,34 +59,77 @@
       <ul>
         <li class="first">You Are Here</li>
         <li>&#187;</li>
-        <li><a href="index.html">Homepage</a></li>
-        <li>&#187;</li>
-        <li class="current"><a href="single_product2.html">Beach wear girl strawberry vest</a></li>
+        <li class="current"><a href="full_width.html">Feedback Form</a></li>
       </ul>
     </div>
     <div class="box">
-    	<div class="portfolio">
-          <div class="tagline_left">
-                    <h2>Beach wear girl strawberry vest</h2>
-					<br>
-                    <p>Dress in sweatshirt fabric with a print, long raglan sleeves with ribbed cuffs, a gentle flare to the hem and concealed pockets at the front.</p>
-                    <ul id="list1">
-                        <li>Exclusive Sunuva Print</li>
-                        <li>Machine Washable</li>
-                        <li>Quick Drying</li>
-                        <li>UPF 50+ Protection</li>
-                    </ul>
-                    </br>
-                    <p>This fun and fresh strawberry swimsuit with criss-cross straps and cute side frills is a stylish celebration of summer. Made from UPF 50+ fabric which blocks out 97% of the sun's harmful rays. A chic must have for little beach belles who love to make a splash!</p>
+		<form class="comments_form" method="post" action="#">
 
-                    <p class="readmore"><a href="#">Buy this &raquo;</a></p>
+            <div class="form-title">
+                <h1>FEEDBACK FORM </h1>
+            </div>
+
+            <div class="form-fields">
+                <label>
+                    <span>Name</span>
+                    <input type="text" name="name" required>
+                </label>
+            </div>
+
+            <div class="form-fields">
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" required>
+                </label>
+            </div>
+
+            <div class="form-fields">
+                <label><span>Rate our services</span></label>
+                <div class="form_rate_services">
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Excellent</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Good</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>OK</span>
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Poor</span>
+                        </label>
+                    </div>
 
                 </div>
-                <div class="tagline_right"><a href="images/girls/Beach wear Girl strawberry vest.png" data-gal="prettyPhoto" title="Beach wear girl strawberry vest"><img src="images/girls/Beach wear Girl strawberry vest.png" alt=""/></a></div>
-                <div class="clear"></div>
             </div>
-    
-    </div>
+			
+            <div class="form-fields">
+                <label>
+                    <span>Comments</span>
+                    <textarea name="textarea"></textarea>
+                </label>
+            </div>
+            
+            <div class="form-fields">
+                <button type="submit">Send feedback! </button>
+            </div>
+
+        </form>
   </div>
 <!-- InstanceEndEditable -->
   <div class="main-container">
@@ -93,13 +137,7 @@
 
     <div class="callout">
         <div class="calloutcontainer">
-              <div class="grid">
-                  <div class="alignleft">
-                      <h3>Would you like to drop us some feedback?</h3>
-                  </div>
-                  <a href="feedback.html" class="more"
-                     target="_blank">Feedback!</a>
-              </div>
+              
               <div class="clear"></div>
             <div class="calloutoverlay"></div>
             <div class="calloutoverlaybottom"></div>

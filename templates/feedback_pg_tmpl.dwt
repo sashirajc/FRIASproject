@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="../styles/style.css" type="text/css"/>
 <link rel="stylesheet" href="../styles/prettyphoto.css" type="text/css"/>
 <link rel="stylesheet" href="../styles/totop.css" type="text/css"/>
+<link rel="stylesheet" href="../styles/feedback_page.css" type="text/css"/>
 
 <!--[if IE]>
 <style>#header h1 a:hover {
@@ -71,13 +72,7 @@
 
     <div class="callout">
         <div class="calloutcontainer">
-              <div class="grid">
-                  <div class="alignleft">
-                      <h3>Would you like to drop us some feedback?</h3>
-                  </div>
-                  <a href="../feedback.html" class="more"
-                     target="_blank">Feedback!</a>
-              </div>
+              
               <div class="clear"></div>
             <div class="calloutoverlay"></div>
             <div class="calloutoverlaybottom"></div>

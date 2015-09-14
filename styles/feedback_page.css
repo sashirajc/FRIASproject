@@ -1,0 +1,160 @@
+.comments_form{
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.comments_form .form-fields{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.comments_form .form-title{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* The form title */
+
+.comments_form h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 30px;
+	font-family:Georgia, "Times New Roman", Times, serif; 
+    padding: 0 10px 15px;
+    border-bottom: 2px solid #6caee0;
+    margin: 0;
+	font-weight:bold;
+}
+
+.comments_form .form-fields > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #5F5F5F;
+    width: 180px;
+    text-align: right;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+
+.comments_form input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+}
+
+.comments_form input[type=radio],
+.comments_form input[type=checkbox]{
+    box-shadow: none;
+    width: auto;
+}
+
+.comments_form input[type=checkbox]{
+    margin-top: 13px;
+}
+
+.comments_form select{
+    background-color: #ffffff;
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    max-width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 8px;
+    border: 1px solid #dbdbdb;
+}
+
+.comments_form textarea{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    height: 80px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    font: normal 13px sans-serif;
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    resize: vertical;
+}
+
+.comments_form .form_rate_services{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.comments_form .form_rate_services > div{
+    margin-top: 10px;
+}
+
+.comments_form .form_rate_services label span{
+    margin-left: 8px;
+    color: #5f5f5f;
+    font-weight: normal;
+}
+
+.comments_form .form_rate_services input{
+    width: auto;
+}
+
+.comments_form button{
+    display: block;
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin: 20px 183px 0;
+}
+
+/*	Making the form responsive. Remove this media query
+    if you don't need the form to work on mobile devices. */
+
+@media (max-width: 600px) {
+
+    .comments_form{
+        padding: 30px;
+        max-width: 480px;
+    }
+
+    .comments_form .form-fields{
+        max-width: 300px;
+        margin: 25px auto;
+        text-align: left;
+    }
+
+    .comments_form .form-title{
+        margin-bottom: 50px;
+    }
+
+    .comments_form .form-fields > label span{
+        display: block;
+        text-align: left;
+        padding: 0 0 15px;
+    }
+
+    .comments_form select{
+        width: 240px;
+    }
+
+    .comments_form input[type=checkbox]{
+        margin-top:0;
+    }
+
+    .comments_form .form_rate_services > div{
+        margin: 0 0 10px;
+    }
+
+    .comments_form button{
+        margin: 0;
+    }
+
+}
