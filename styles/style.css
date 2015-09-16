@@ -16,7 +16,9 @@ article, figure, footer, header, hgroup, menu, nav, section {
     content: "";
     display: table
 }
-
+#termsandconditions{
+	font-size:10px;
+}
 .clearfix:after {
     clear: both
 }
