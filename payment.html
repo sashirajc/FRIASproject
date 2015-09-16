@@ -73,24 +73,38 @@
     </thead>
     
     <tbody>
-    <td><a href="single_product13.html" title="dress" target="_blank"><img src="images/boys/Demin boy Jeans1.png" alt="" width="179"/></a></td>
-    <td>Your product name</td>
-    <td>$ 0</td>
-    <td><input type="number" min="1" value="1" style="width: 3em"></td>
+    <td><a href="single_product13.html" id="boyLink" title="dress" target="_blank"><img id="boyImage" src="images/boys/Demin boy Jeans1.png" alt="" width="179"/></a></td>
+    <td><select id="boySelect" onchange="checkBoySelect(); total();">
+  <option value="Demin boy Jeans">Demin boy Jeans
+  <option value="Skinny jeans - True rinse">Skinny jeans - True rinse
+  <option value="Demin Jeans - Tumbled mediums">Demin Jeans - Tumbled mediums
+  <option value="Jimi Jeans for boys">Jimi Jeans for boys
+  <option value="Johnny and June Shirt">Johnny and June Shirt
+  <option value="100% Pima Cotton Tshirts">100% Pima Cotton Tshirts
+</select></td>
+    <td>$ <span id="boyPrice">10</span></td>
+    <td><input id="boyQty" type="number" min="1" value="1" style="width: 3em" onchange="total()"></td>
     <td><a class="payment_btn">remove</a></td>
     </tbody>
     
     <tbody>
-    <td><a href="single_product14.html" title="dress" target="_blank"><img src="images/boys/Demin boy jeans2.png" alt="" width="179"/></a></td>
-    <td>Your product name</td>
-    <td>$ 0</td>
-    <td><input type="number" min="1" value="1" style="width: 3em"></td>
+    <td><a href="single_product10.html" id="girlLink" title="vest2" target="_blank"><img id="girlImage" src="images/girls/vest2.png" alt="" width="179"/></a></td>
+    <td><select id="girlSelect" onchange="checkGirlSelect(); total();">
+  <option value="Girls sunglasses rash vest">Girls sunglasses rash vest
+  <option value="Cute doggie Embroidered Dresss">Cute doggie Embroidered Dresss
+  <option value="Peach Party Dress">Peach Party Dress
+  <option value="Sequin Embellished Dress">Sequin Embellished Dress
+  <option value="Pure Cotton Prom Dresst">Pure Cotton Prom Dress
+  <option value="Yellow Flower Dress">Yellow Flower Dress
+</select></td>
+    <td>$ <span id="girlPrice">20</span></td>
+    <td><input id="girlQty" type="number" min="1" value="1" style="width: 3em" onchange="total()"></td>
     <td><a class="payment_btn">remove</a></td>
     </tbody>     
 </table>
-<h3 class="center">TOTAL: $ 0</h3>
+<h3 class="center">TOTAL: $ <span id="toalPrice">30</span></h3>
 <br>
-<h6 class="center" id="address">Your shipping address is here<input type="checkbox" id="myCheck" onChange="address()"></h6>
+<h6 class="center" id="address">Your shipping address: <input type="text" style="width: 24em"></h6>
 <br>
   <section class="center"><input type="submit" value="CHECKOUT" onClick="checkout()"></section>
 </form> 
