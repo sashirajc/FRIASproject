@@ -1,19 +1,6 @@
 @import url("table.css");
 
-@font-face {
-    font-family: 'ChunkFive Regular';
-    src: url('fonts/Chunkfive.eot');
-    src: local('ChunkFive Regular'), local('ChunkFive'), url('fonts/Chunkfive.woff') format('woff'), url('fonts/Chunkfive.otf') format('opentype')
-}
-
-@font-face {
-    font-family: 'Artifika';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Artifika Medium'), local('Artifika-Medium'), url('fonts/Artifika-Regular.woff') format('woff'), url('fonts/Artifika-Regular.ttf') format('truetype')
-}
-
-html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, abbr, address, em, img, small, strong, b, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time {
+html, body, div, span, object, h1, h2, h3, p, abbr, address, em, img, small, strong, b, dl, dt, dd, ol, ul, li,form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time {
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
