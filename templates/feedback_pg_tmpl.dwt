@@ -96,5 +96,10 @@
 <script src="../scripts/totop.js" type="text/javascript"></script>
 <script src="../scripts/superfish.js" type="text/javascript"></script>
 <script src="../scripts/functions.js" type="text/javascript"></script>
+<script type="text/javascript">
+function thanks_alert() {
+    alert("Thank you for giving us your feedback!");
+}
+</script>
 </body>
 </html>
