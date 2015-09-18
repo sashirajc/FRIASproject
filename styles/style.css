@@ -263,11 +263,11 @@ p {
     margin-bottom: -10px
 }
 
-#list li, #list1 li, #list2 li, #list3 li {
+#list li{
     line-height: 20px;
 }
 
-#list, #list1, #list2, #list3 {
+#list{
     clear: both;
     margin-top: 20px;
 	list-style-type:circle;
@@ -534,24 +534,14 @@ footer p {
 }
 
 a.payment_btn {
-	-moz-box-shadow:inset 0px 0px 2px 2px #9fb4f2;
-	-webkit-box-shadow:inset 0px 0px 2px 2px #9fb4f2;
-	box-shadow:inset 0px 0px 2px 2px #9fb4f2;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
-	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
-	background-color:#7892c2;
+	background-color:#FF0;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	border-radius:10px;
 	border:1px solid #4e6096;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#CCC;
 	font-family:Arial;
 	font-size:14px;
 	padding:5px 10px;
@@ -561,14 +551,7 @@ a.payment_btn {
 }
 
 a.payment_btn:hover {
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
-	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
-	background-color:#476e9e;
+	background-color:#0FF !important;
 	color:#333;
 }
 
