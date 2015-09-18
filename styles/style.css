@@ -1,6 +1,6 @@
 @import url("table.css");
 
-html, body, div, span, object, h1, h2, h3, p, abbr, address, em, img, small, strong, b, dl, dt, dd, ol, ul, li,form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time {
+html, body, div, span, object, h1, h2, h3, h6, p, abbr, address, em, img, small, strong, b, dl, dt, dd, ol, ul, li,form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time {
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
@@ -105,7 +105,7 @@ div.main-container header {
 	margin-top: 3px;
 }
 
-div.main-container h1, div.main-container h2, div.main-container h3 {
+div.main-container h1, div.main-container h2, div.main-container h3, div.main-container h6 {
     font-family: Artifika, Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: normal;
@@ -142,6 +142,9 @@ h2 {
 
 h3 {
     font-size: 26px
+}
+h6 {
+    font-size: 20px
 }
 
 #header h1 {
@@ -230,12 +233,12 @@ footer {
     font-size: 12px
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h6 {
     color: #333;
     font-family: Artifika, Arial, Helvetica, sans-serif
 }
 
-h1 a, h2 a, h3 a{
+h1 a, h2 a, h3 a, h6 a{
     color: #292929;
     font-family: Artifika, Arial, Helvetica, sans-serif
 }
